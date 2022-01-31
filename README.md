@@ -1,6 +1,11 @@
 # AppHost.Selenium
 integration package to host Selenium´s WebDrivers inside custom applications, easy peasy
 this working demo was inspired by this [stackoverflow-question](https://stackoverflow.com/questions/43842311/how-to-embed-a-selenium-webdriver-as-a-wpf-control/44004670#44004670)
+
+## Driver
+### Chromedriver
+Download the chrome driver at https://chromedriver.storage.googleapis.com/index.html
+
 ## WinForms
 
     var service = ChromeDriverService.CreateDefaultService();
