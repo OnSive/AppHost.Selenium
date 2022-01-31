@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AppHost.Selenium.Wpf.Playground"
-        xmlns:sh="https://github.com/earloc/AppHost.Selenium"
+        xmlns:sh="clr-namespace:AppHost.Selenium.WPF;assembly=AppHost.Selenium.WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
@@ -15,7 +15,7 @@
                     Value="5,0" />
         </Style>
     </Window.Resources>
-        <DockPanel LastChildFill="True">
+    <DockPanel LastChildFill="True">
         <StackPanel DockPanel.Dock="Left">
             <Button x:Name="_btnLoadChrome"
                     Click="_btnLoadChrome_Click">load Chrome</Button>
@@ -26,5 +26,5 @@
         </StackPanel>
 
         <sh:SeleniumHost x:Name="_SeleniumHost" />
-        </DockPanel>
+    </DockPanel>
 </Window>

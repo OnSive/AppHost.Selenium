@@ -8,8 +8,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AppHost.Selenium.WinForms\AppHost.Selenium.WinForms.csproj" />
-  </ItemGroup>
-
 </Project>

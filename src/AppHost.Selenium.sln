@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32120.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost.Selenium.WinForms", "AppHost.Selenium.WinForms\AppHost.Selenium.WinForms.csproj", "{9BE798AA-FF99-4306-8196-E7BF81ECF70C}"
 EndProject
@@ -42,5 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1} = {94D6B40E-389A-4E3F-8465-81C0BF63B085}
 		{D405AD2D-30CC-4E35-90CD-47990258D3CC} = {94D6B40E-389A-4E3F-8465-81C0BF63B085}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC7DF662-EED3-4AB3-9EF6-27B1341A738E}
 	EndGlobalSection
 EndGlobal
