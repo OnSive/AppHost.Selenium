@@ -3,38 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32120.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost.Selenium.WinForms", "AppHost.Selenium.WinForms\AppHost.Selenium.WinForms.csproj", "{9BE798AA-FF99-4306-8196-E7BF81ECF70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppHost.Selenium.WinForms", "AppHost.Selenium.WinForms\AppHost.Selenium.WinForms.csproj", "{9BE798AA-FF99-4306-8196-E7BF81ECF70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost.Selenium.WinForms.Playground", "AppHost.Selenium.WinForms.Playground\AppHost.Selenium.WinForms.Playground.csproj", "{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppHost.Selenium.WinForms.Playground", "AppHost.Selenium.WinForms.Playground\AppHost.Selenium.WinForms.Playground.csproj", "{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost.Selenium.WPF", "AppHost.Selenium.WPF\AppHost.Selenium.WPF.csproj", "{C4B1EBD3-217A-4887-B31B-96E54D409C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppHost.Selenium.WPF", "AppHost.Selenium.WPF\AppHost.Selenium.WPF.csproj", "{C4B1EBD3-217A-4887-B31B-96E54D409C4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{94D6B40E-389A-4E3F-8465-81C0BF63B085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost.Selenium.Wpf.Playground", "AppHost.Selenium.Wpf.Playground\AppHost.Selenium.Wpf.Playground.csproj", "{D405AD2D-30CC-4E35-90CD-47990258D3CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppHost.Selenium.Wpf.Playground", "AppHost.Selenium.Wpf.Playground\AppHost.Selenium.Wpf.Playground.csproj", "{D405AD2D-30CC-4E35-90CD-47990258D3CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Debug|x86.ActiveCfg = Debug|x86
+		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Debug|x86.Build.0 = Debug|x86
+		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Release|x86.ActiveCfg = Release|x86
+		{9BE798AA-FF99-4306-8196-E7BF81ECF70C}.Release|x86.Build.0 = Release|x86
+		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Debug|x86.ActiveCfg = Debug|x86
+		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Debug|x86.Build.0 = Debug|x86
+		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Release|x86.ActiveCfg = Release|x86
+		{211D9ACA-DCD3-4FD1-96E8-9675A6EAC0F1}.Release|x86.Build.0 = Release|x86
+		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Debug|x86.ActiveCfg = Debug|x86
+		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Debug|x86.Build.0 = Debug|x86
+		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Release|x86.ActiveCfg = Release|x86
+		{C4B1EBD3-217A-4887-B31B-96E54D409C4B}.Release|x86.Build.0 = Release|x86
+		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Debug|x86.ActiveCfg = Debug|x86
+		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Debug|x86.Build.0 = Debug|x86
+		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Release|x86.ActiveCfg = Release|x86
+		{D405AD2D-30CC-4E35-90CD-47990258D3CC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
